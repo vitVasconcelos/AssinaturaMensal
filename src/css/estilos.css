@@ -1,0 +1,126 @@
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Karla", sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 100px auto;
+}  
+.wrapper {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+.join{
+    display: flex;
+    width: 100%;
+    height: 45%;
+    flex-direction: column;
+}
+.join h1{
+    color: var(--Cyan);
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.join h3{
+    color: var(--BrightYellow);
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.join p{
+    margin-top: 15px;
+    margin-left: 40px;
+    color: var(--GrayishBlue);
+    width: 70%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.container {
+    display: flex;
+    height: 55%;
+    width: 100%;
+  }
+.sign-up{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color:#2bb3b1;
+}
+.sign-up h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: var(--LightGray);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    
+}
+.sign-up h3{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: var(--LightGray);
+    font-weight: lighter;
+}
+.sign-up h3 span{
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.sign-up p{
+    color: var(--LightGray);
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.sign-up button{
+    color: #fff;
+    background-color: var(--BrightYellow);
+    padding: 15px 25px;
+    border-radius: 5px;
+    width: 65%;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.2);
+}
+.why-us{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color:#4abebd;
+}
+.why-us h3{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: var(--LightGray);
+}
+.why-us p{
+    width: 50%;
+    color: var(--LightGray);
+    margin-left: 40px;
+    margin-top: 25px;
+    font-weight: 200;
+    line-height: 1.8;
+}
