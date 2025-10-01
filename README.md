@@ -1,6 +1,6 @@
 👥 Join Our Community
 
-Projeto de uma landing page de assinatura mensal, com layout responsivo e foco em conversão de novos usuários para uma comunidade de desenvolvedores. Criado com HTML e CSS puro, o design é baseado em um desafio do Frontend Mentor.
+Projeto de uma landing page de assinatura mensal, com layout responsivo e foco em conversão de novos usuários para uma comunidade de desenvolvedores. Criado com HTML e CSS puro, o design é baseado em um desafio do Frontend Mentor https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc
 
 📸Prévia
 ![image](https://github.com/user-attachments/assets/f6b6ed4e-a800-46fa-a23a-2173d47859b0)
